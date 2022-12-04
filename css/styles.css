@@ -422,6 +422,9 @@ img {
 .address .items {
   display: block;
 }
+.address .items:not(:last-child) {
+  margin-bottom: 9px;
+}
 .social-networks .title {
   margin-bottom: 20px;
   font-weight: 700;
